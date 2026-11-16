@@ -1,0 +1,14 @@
+export const menuItems = [
+  { id: 'coffee-01', name: 'Classic Cappuccino', category: 'Drinks', price: 650, stock: 12, description: 'Espresso topped with silky steamed milk and a soft layer of foam.', tags: ['Coffee', 'Hot'], customizable: true, image: '/images/cappuccino.jpg' },
+  { id: 'coffee-02', name: 'Iced Spanish Latte', category: 'Drinks', price: 780, stock: 10, description: 'A chilled espresso drink with creamy milk and a hint of sweetness.', tags: ['Coffee', 'Cold'], customizable: true, image: '/images/latte.jpg'},
+  { id: 'coffee-03', name: 'Americano', category: 'Drinks', price: 520, stock: 14, description: 'A smooth espresso finished with hot water.', tags: ['Coffee', 'Hot'], customizable: true, image: '/images/americano.jpg' },
+  { id: 'drink-04', name: 'Iced Matcha', category: 'Drinks', price: 850, stock: 8, description: 'Earthy matcha whisked until smooth and served over ice.', tags: ['Tea', 'Cold'], customizable: true, image: '/images/matcha.jpg' },
+  { id: 'bakery-01', name: 'Butter Croissant', category: 'Bakery', price: 420, stock: 9, description: 'A flaky, golden pastry baked fresh each morning.', tags: ['Pastry', 'Vegetarian'], customizable: false, image: '/images/croissant.jpg' },
+  { id: 'bakery-02', name: 'Chocolate Danish', category: 'Bakery', price: 490, stock: 7, description: 'Laminated pastry with a rich chocolate centre.', tags: ['Pastry', 'Chocolate'], customizable: false, image: '/images/danish.jpg' },
+  { id: 'bakery-03', name: 'Blueberry Muffin', category: 'Bakery', price: 380, stock: 11, description: 'A soft muffin filled with blueberries and a lightly crisp top.', tags: ['Baked', 'Vegetarian'], customizable: false, image: '/images/muffin.jpg'},
+  { id: 'bakery-04', name: 'Cinnamon Roll', category: 'Bakery', price: 460, stock: 6, description: 'A warm spiral roll with cinnamon sugar and vanilla glaze.', tags: ['Baked', 'Sweet'], customizable: false, image:'/images/roll.jpg'},
+  { id: 'food-01', name: 'Grilled Cheese Toastie', category: 'Food', price: 890, stock: 8, description: 'Toasted sourdough with a generous melted cheese filling.', tags: ['Sandwich', 'Vegetarian'], customizable: false, image: '/images/toastie.jpg' },
+  { id: 'food-02', name: 'Chicken Pesto Panini', category: 'Food', price: 1150, stock: 5, description: 'Grilled panini with chicken, pesto and mozzarella.', tags: ['Sandwich', 'Chicken'], customizable: false, image: '/images/panini.jpg' },
+  { id: 'dessert-01', name: 'Chocolate Brownie', category: 'Desserts', price: 520, stock: 10, description: 'A dense, fudgy brownie with a delicate crackled top.', tags: ['Chocolate', 'Sweet'], customizable: false, image: '/images/brownie.jpg' },
+  { id: 'dessert-02', name: 'Classic Cheesecake', category: 'Desserts', price: 720, stock: 4, description: 'Creamy baked cheesecake on a buttery biscuit base.', tags: ['Cake', 'Sweet'], customizable: false, image: '/images/cheesecake.jpg' }
+];
